@@ -1,7 +1,7 @@
 #include <Arduino.h>
 /*此程序用于演示如何将NodeMCU以接入点模式工作。通过此程序，您可以使用
 电脑或者手机连接NodeMCU所建立WiFi网络。
-网络名SSID:BIoT.hrbu.edu
+网络名：SSID:BIoT.hrbu.edu
 密码：12345678
 */
 #include <ESP8266WiFi.h>            // 本程序使用ESP8266WiFi库
@@ -23,5 +23,5 @@ void setup()
 }
 void loop()
 {
-  
+
 }
