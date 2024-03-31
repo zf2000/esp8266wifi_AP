@@ -21,7 +21,7 @@ void setup()
   Serial.print("IP address: ");    // 以及NodeMCU的IP地址
   Serial.println(WiFi.softAPIP()); // 通过调用WiFi.softAPIP()可以得到NodeMCU的IP地址
 }
+// 死循环
 void loop()
 {
-
 }
